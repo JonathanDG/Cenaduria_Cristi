@@ -132,13 +132,3 @@ a {
 
 
 }
-
-.nav-responsive::after {
-  content: attr(data-full);
-}
-
-@media (max-width: 576px) {
-  .nav-responsive::after {
-    content: attr(data-short);
-  }
-}
